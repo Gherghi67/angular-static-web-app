@@ -9,7 +9,6 @@ export class AppComponent {
   message = '';
 
   constructor(private http: HttpClient) {
-    this.http.get('/api/message')
-      .subscribe((resp: any) => this.message = resp.text);
+    this.message = 'Hello, Bogdan';
   }
 }
