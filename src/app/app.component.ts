@@ -9,6 +9,6 @@ export class AppComponent {
   message = '';
 
   constructor(private http: HttpClient) {
-    this.message = 'Hello, Bogdan';
+    this.message = 'Hello, Andrei';
   }
 }
